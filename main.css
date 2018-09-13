@@ -1,0 +1,214 @@
+*{
+    font-family: 'Roboto', sans-serif;   
+}
+.marginTop50{
+	margin-top: 50px;
+}
+.container-fluid{
+	max-width: 100%;
+}
+.firstDiv{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;
+	width: auto;
+}
+.contentDiv{
+	position: relative;
+	top: 80px;
+}
+.standardCenterVerticalDiv{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.standardCenterHorizontalDiv{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.marginLeft20{
+	margin-left: 20px;
+}
+.marginRight20{
+	margin-right: 20px;
+}
+.marginTop20{
+	margin-top: 20px;
+}
+.marginBottom20{
+	margin-bottom: 20px;
+}
+.paddingTop20{
+	padding-top: 20px;
+}
+.paddingBottom20{
+	padding-bottom: 20px;
+}
+.paddingLeft20{
+	padding-left: 20px;
+}
+.paddingRight20{
+	padding-right: 20px;
+}
+.noteImageOne{
+	width: 50%;
+	height:auto;
+}
+.noteImageThree{
+	width: 50%;
+	height:auto;
+}
+.blackBackground{
+	background-color: #000000;
+}
+.lightGrayBackground{
+	background-color: #D3D3D3;
+}
+.textColorWhite{
+	color: #FFFFFF;
+}
+.looksDiv{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	flex : 1 100%;
+	flex-flow: row wrap;
+}
+.looksDivInnerOne{
+	flex: 5;
+	order: 0;
+}
+.looksDivInnerTwo{
+	display: flex;
+	flex: 7;
+	order: 1;
+	justify-content: center;
+	align-content: center;
+}
+.featuresDiv{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+.colorsDiv{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+}
+.glyphicon{
+	font-size: 75px;
+}
+.colorsDescriptionDiv{
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+}
+.blackDot{
+	height: 25px;
+  	width: 25px;
+  	background-color: #000000;
+  	border-radius: 50%;
+  	display: inline-block;
+}
+.blueDot{
+	height: 25px;
+  	width: 25px;
+  	background-color: #374566;
+  	border-radius: 50%;
+  	display: inline-block;
+}
+.width100{
+	width: 100%;
+}
+.goldDot{
+	height: 25px;
+  	width: 25px;
+  	background-color: #A06552;
+  	border-radius: 50%;
+  	display: inline-block;
+}
+.footerStyle{
+	background-color: #000000;
+	color: #FFFFFF;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+/*Navbar CSS code starts*/
+.navbar-default {
+  background-color: #000000;
+  border-color: #ffffff;
+}
+.navbar-default .navbar-brand {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #000000;
+}
+.navbar-default .navbar-text {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #000000;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #000000;
+  background-color: #ffffff;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #000000;
+  background-color: #ffffff;
+}
+.navbar-default .navbar-toggle {
+  border-color: #ffffff;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #ffffff;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ecf0f1;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ecf0f1;
+}
+.navbar-default .navbar-link {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-link:hover {
+  color: #000000;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ecf0f1;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #000000;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #000000;
+    background-color: #ffffff;
+  }
+}
+/*Navbar CSS code ends*/
